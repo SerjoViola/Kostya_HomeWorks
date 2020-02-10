@@ -1,0 +1,420 @@
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .gitignore	(revision ef059eced932893a8cd848b7a792ac08c2cf7d6a)
++++ .gitignore	(revision ef059eced932893a8cd848b7a792ac08c2cf7d6a)
+@@ -0,0 +1,56 @@
++#
++# Project specific excludes
++#
++
++tomcat
++
++#
++# Default excludes
++#
++
++# Binaries
++*.7z
++*.dmg
++*.gz
++*.iso
++*.jar
++*.rar
++*.tar
++*.zip
++*.war
++*.ear
++*.sar
++*.class
++
++# Maven 
++target/
++
++# IntelliJ project files 
++*.iml
++*.iws
++*.ipr
++.idea/
++
++# eclipse project file
++.settings/
++.classpath
++.project
++
++# NetBeans specific
++nbproject/private/
++build/
++nbbuild/
++dist/
++nbdist/
++nbactions.xml
++nb-configuration.xml
++
++
++# OS
++.DS_Store
++
++# Misc
++*.swp
++release.properties
++pom.xml.releaseBackup
++pom.xml.tag
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/.gitignore	(revision ef059eced932893a8cd848b7a792ac08c2cf7d6a)
++++ .idea/.gitignore	(revision ef059eced932893a8cd848b7a792ac08c2cf7d6a)
+@@ -0,0 +1,2 @@
++# Default ignored files
++/workspace.xml
+\ No newline at end of file
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/compiler.xml	(revision ef059eced932893a8cd848b7a792ac08c2cf7d6a)
++++ .idea/compiler.xml	(revision ef059eced932893a8cd848b7a792ac08c2cf7d6a)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CompilerConfiguration">
++    <bytecodeTargetLevel target="11" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/misc.xml	(revision ef059eced932893a8cd848b7a792ac08c2cf7d6a)
++++ .idea/misc.xml	(revision ef059eced932893a8cd848b7a792ac08c2cf7d6a)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/modules.xml	(revision ef059eced932893a8cd848b7a792ac08c2cf7d6a)
++++ .idea/modules.xml	(revision ef059eced932893a8cd848b7a792ac08c2cf7d6a)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/HomeWorks.iml" filepath="$PROJECT_DIR$/HomeWorks.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/sonarlint/issuestore/index.pb
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/sonarlint/issuestore/index.pb	(revision 0cdf2860156a5a775375933a38db3a5cf211fe23)
++++ .idea/sonarlint/issuestore/index.pb	(revision 0cdf2860156a5a775375933a38db3a5cf211fe23)
+@@ -0,0 +1,19 @@
++
++G
++src/HW2/task1/Main.java,9\7\97461dac80dc49883f06b166c9b0d6de9ee4fd46
++S
++#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
++G
++src/HW2/task2/Main.java,2\b\2bd2dacaa3378d27318241b2c398b261135888e6
++G
++src/HW2/task3/Main.java,c\d\cd7e07ab5a2066dbbb81d29255ff5860e4e7d455
++G
++src/HW2/task4/Main.java,f\f\ff6a219d4f8be24de4acdbdab076dc77b7bcc2f8
++=
++
++HomeWorks.iml,1\9\19dd12a00fb1431b16085f4d9cc46e0598c1a6fd
++G
++src/HW2/task5/Main.java,b\f\bf1cbde22c807c21f6c41294289425fe3c7d42d5
++:
++
++.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(revision ef059eced932893a8cd848b7a792ac08c2cf7d6a)
++++ .idea/vcs.xml	(revision ef059eced932893a8cd848b7a792ac08c2cf7d6a)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: HomeWorks.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- HomeWorks.iml	(revision ef059eced932893a8cd848b7a792ac08c2cf7d6a)
++++ HomeWorks.iml	(revision ef059eced932893a8cd848b7a792ac08c2cf7d6a)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: src/HW2/task1/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/HW2/task1/Main.java	(revision ef059eced932893a8cd848b7a792ac08c2cf7d6a)
++++ src/HW2/task1/Main.java	(revision ef059eced932893a8cd848b7a792ac08c2cf7d6a)
+@@ -0,0 +1,17 @@
++package HW2.task1;
++
++import java.util.Scanner;
++
++public class Main {
++
++    public static void main(String[] args) {
++        Scanner sc = new Scanner(System.in);
++        int userInput1 = sc.nextInt();
++        int userInput2 = sc.nextInt();
++        int userInput3 = sc.nextInt();
++        int count = userInput1 * 100 + userInput2 * 10 + userInput3;
++        System.out.println(count);
++
++    }
++}
++
+Index: src/HW2/task2/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/HW2/task2/Main.java	(revision ef059eced932893a8cd848b7a792ac08c2cf7d6a)
++++ src/HW2/task2/Main.java	(revision ef059eced932893a8cd848b7a792ac08c2cf7d6a)
+@@ -0,0 +1,17 @@
++package HW2.task2;
++
++import java.util.Scanner;
++
++public class Main {
++
++    public static void main(String[] args) {
++        Scanner sc = new Scanner(System.in);
++        int userInput = sc.nextInt();
++        while (userInput < 1000 && userInput >= 10000) {
++            System.out.println("Try again");
++            userInput = sc.nextInt();
++        }
++        int composition = (userInput / 1000) * (userInput % 1000 / 100) * (userInput % 100 / 10) * (userInput % 10);
++        System.out.println(composition);
++    }
++}
+Index: src/HW2/task3/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/HW2/task3/Main.java	(revision ef059eced932893a8cd848b7a792ac08c2cf7d6a)
++++ src/HW2/task3/Main.java	(revision ef059eced932893a8cd848b7a792ac08c2cf7d6a)
+@@ -0,0 +1,25 @@
++package HW2.task3;
++
++import java.util.Scanner;
++
++public class Main {
++
++    public static void main(String[] args) {
++        Scanner sc = new Scanner(System.in);
++        double meters = sc.nextDouble();
++        double centimeters = converter(meters, 100);
++        double decimeters = converter(meters, 10);
++        double millimeters = converter(meters, 1000);
++        double miles = converter(meters, 0.00062);
++        System.out.println("Centimeters: " + centimeters
++                + "\nDecimeters: " + decimeters
++                + "\nMillimeters: " + millimeters
++                + "\nMiles: " + miles);
++    }
++
++    public static double converter(double meters, double scale) {
++        double res = meters * scale;
++
++        return res;
++    }
++}
+Index: src/HW2/task4/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/HW2/task4/Main.java	(revision ef059eced932893a8cd848b7a792ac08c2cf7d6a)
++++ src/HW2/task4/Main.java	(revision ef059eced932893a8cd848b7a792ac08c2cf7d6a)
+@@ -0,0 +1,21 @@
++package HW2.task4;
++
++import java.util.Scanner;
++
++public class Main {
++
++    public static void main(String[] args) {
++        Scanner sc = new Scanner(System.in);
++        double basis = sc.nextDouble();
++        double height = sc.nextDouble();
++        double area = calculationTriangleArea(basis, height);
++        System.out.println("Triangle area = " + area);
++    }
++
++    public static double calculationTriangleArea(double basis, double height){
++        double area = basis * height / 2;
++
++        return area;
++    }
++
++}
+Index: src/HW2/task5/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/HW2/task5/Main.java	(revision ef059eced932893a8cd848b7a792ac08c2cf7d6a)
++++ src/HW2/task5/Main.java	(revision ef059eced932893a8cd848b7a792ac08c2cf7d6a)
+@@ -0,0 +1,14 @@
++package HW2.task5;
++
++import java.util.Scanner;
++
++public class Main {
++
++    public static void main(String[] args) {
++        Scanner sc = new Scanner(System.in);
++        int userInput = sc.nextInt();
++        int count ;
++        count = userInput % 10 * 1000 + userInput % 100 / 10 * 100 + userInput % 1000 / 100 * 10 + userInput / 1000;
++        System.out.println(count);
++    }
++}
+diff --git .idea/sonarlint/issuestore/9/7/97461dac80dc49883f06b166c9b0d6de9ee4fd46 .idea/sonarlint/issuestore/9/7/97461dac80dc49883f06b166c9b0d6de9ee4fd46
+new file mode 100644
+index 0000000000000000000000000000000000000000..e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git out/production/HomeWorks/HW2/task1/Main.class out/production/HomeWorks/HW2/task1/Main.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..7a5c30d1640e05367a9ebceb1a984cd8fc56a33d
+GIT binary patch
+literal 815
+zc${rg-EI;=7(D|E+ug1$Ez+WvYU@v-)vlna7gcUdj3iV|Fc{-ahwTQo!fvz78hs(}
+z?M0ht;sf|l#xp<yjd1b(otg8UGwh$gKYs&whNm_xY?`=j;SRQJq_C~SUESWZaUTy%
+z?3gGEWS<9Npy~qYa-}U`yo^qKf#qfp`frj!$B*C3PM?$2X5`6!TgHLzCqqN^f}udJ
+z`T9f6RdV>b>K@4;JR~w;7Fa8PYM#n3((TKz>$X%Jgx$l@9vOFeGd~9wNDVzgV<b^Q
+z-)(s^4E>mpoecfB5uPQgDj*uOgW7EKL?GiuNvJq%MM>=WuL7;u()#u_vjZE80xSP*
+zF;Q`_i#>hdp@T=*ci`f&iK>GdNW65_E&WeDyzQL&p1Lw>eH$u&Kv()`VeBf1+>uOL
+z_T_-SisiY0ekwEczp93I!oP@)(@~;kiQe(mrbPKUV{)A7u1^6*xlw6j3k&=}^e+XW
+zAA-?g=Q0cC%<d(`j}d&0F*_b&iP4$V%g8ZXSi$P#@^_?p5~%$`>f<@mmoS=p7s$NO
+zp{~P$v5`CJm2!6PxL_O~WX_Q-WG-M%H*LaXT%aI}{5A@#Zjrr0w91`YL4CXhd0b~+
+n#12obQ9};fSVxge1(a}uRhoC#ag&un28&&h$^|w?`%3=+9!{iQ
+
+diff --git out/production/HomeWorks/HW2/task2/Main.class out/production/HomeWorks/HW2/task2/Main.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..6f325320455efcc3dcba29c842404859480ca1b5
+GIT binary patch
+literal 891
+zc${@pO>fgc5Pch`apJhGlh9I1Qc8i=Ng;;tQKUi-AOWdTzETAtP8-Kc+&Z>pJBa=q
+zxNxS2R04@32mS{Ve}a!$CsI@qe3;ppH#_^@?E3rf&tCy-;jV%#F34ET;3C!(BydTX
+z%Obpz#=3$H=)#m`RAg*2r0&_S9qlkkdb!1reCTy7hWUo=T2BZ4wiWF2wnLeG!!x<l
+z;(;yVaWWb8?2tigJb6_!A|4*rj6H6<+l2JVGc4+F8VCF>HyrMEjb;?sZg)FAhX-BS
+zS(pMdBtny*5i*Eu$7q_|b*+G)%pkOay6X=j23BXtnqJ@cLOZfOI&QWZar1DG`(u7e
+z(;Eb)^~e@MMo_DYrYcm-GUWa_K*m)S*H9G&hKlRBp`wPHw0A!^TIF48Amf&b+qfgl
+z7Q@_W<ur?lo@ea?%ZyH?nnz(|^+};9T^K2}JtG!G@-5ycjZ6AeK#Waxt#?t~jpFMf
+z`I09FF=_OiCOBzSn3AR*zK9$_K>yF>==E}oUW|B5;!A*uiIJV7$RN+i&s0vpKE?1n
+z+0-ZrjjTFe=a46#K>=sRo4-LqlKjgrNW4CVbb@4KbBLMy#hmo>1D1=q4edP&$4KSn
+zA<{AQ@y`!|I>Pu`$LSTdj;|@gD}HZ>YD+_81QRJ{vW7I-G?C8`8wD%0S|?6bVz5gU
+zFDNTmRz^&)fJO3IJjPip5l;;da1P6)YnQs5r<H^vRnVXG3!01sD^XP`R=)BVl2W{U
+
+diff --git out/production/HomeWorks/HW2/task3/Main.class out/production/HomeWorks/HW2/task3/Main.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..d3ca4953d0d72613242755d5e80120e35110c624
+GIT binary patch
+literal 1534
+zc$|$??Q#=U7=BKZY|_m_L(501g0+^KfD(l&l<*Nrs3|5;O)bOt>vVgjU9#ED?4ES&
+zRruE*-hjUx`2h~jcmZ64_uw5kK4%k}G7XM9v*&%@?~n8G>YtZ?0=SMX8*}(1i!0Np
+z;8Pn@_{=O<t=bbLpN&~uvuaC2&Z_-b8-lxyjlci;x&4drTbZTghK*I+%%YmbEdlG6
+z7kK)PK&n*U5=hs>9VIZ+@&fg6(A!qgrrh=^nQeux^tWW>8Ga;8>pd?PD72c7uU52-
+zyVojh=>=74dZYqpOW(Ji%6(b!Ww2Z6=*SCpt4SUi?b35@f?8lIcBvX_2HNv09ajc{
+zim0-BN~?&Tq9KrXRiM4s5_?CvhfKcb`Til7A*V>E-7wf!5rveM8jUi8WMcNkUQ&^<
+zush)(a@Cq=MAN33E2azwr*TH$)UlGXxb5H$?iz!dgD-K<!AB@LsDrT!_rg%eI+Fdi
+z(tF`fJY(U04r>m+LNkkX2M_SIz{xkqN5An<9&JBWu6{$*If%9DaZJYa%y3LzSXmGH
+z1I-yK+2f#!rHKkNdpl4+=tek5wvgM-LQ~;DAC0xaop|kHqlLD>N_{-+n+w8j98TMC
+z?eVxrtTI60Tu*jYJq%o_AA5R_DAqF2v8k}ZuRQ4h%uT36Alo;bZ<;PmI#pRbG=u$C
+zU}>!Ng8i_oMn=Or)}*V$=pc(to~KqAb_aa{XWeXP-IsA}&cRPdGmK&k_pm909X7W#
+zbgUjP<ZX_d2Yofc{OAoBZg#bNJVagke#g^_m-ah>i~p-OfeZg_hY$E>%q7o63c?(5
+zu4l<rNCj!;(hG>+2&Qn(yd^^+id>x$p2s_+(|8x}jhtVRb4Z(iVCu;;q+TH1y8IlO
+z_0nlrzazJrCYUzBBFGz%BRFAz{R}h3bkQp2iuOwsfaf?h&cBEp*BtW9P~d|%PqfHf
+zmvI6sILW=AO=@c*o2=(?fi#cXcpnR_u7DeCd6CiP+2V&pY5vPt;%YI<d0b3#tZ)>|
+zL^kvAGLQOtKx@n7UoLf5)5Y|!hjp2U7#v=PoXNkyahf_!E+nX&WX({1Dao2*Hsk#<
+WzDfKA9-)H`*7bQ}FYpEb>;D3p(O{wg
+
+diff --git out/production/HomeWorks/HW2/task4/Main.class out/production/HomeWorks/HW2/task4/Main.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..2b6327b353b884deb41656aa36d8ded9c60f665c
+GIT binary patch
+literal 1383
+zc$|$?YfsZq7=F%HR#wXWHWhFxU<b++@qz;cHj(K-lM#sV(_x%!WnH_hXGH#npZpg_
+zK7hf*AK;HNzNZ@kVH%tCoYVLAJn!?i{rT(k2Y{!@8R*0v9ph0<VA4PcchzDUFp*HU
+zsXmIEF_6TA$TAw2j)yvC86pd|Ys)2uu$9<m(9+(XVCc@-uGp+sc13NA?>c1Z%XtOv
+zZ1b9}o|{HZmTaG)C%3*co0Qxy&m}jw?WV|6p`BsK`jFe_2R!L;x0uY!n(Y=-0S>Pf
+zDYL(Yn<3;E$kp)FrR^m11@5|{My|G9?kh-^A?hVz7fUiICOE?|5iHalE^W`<BA#y1
+z5i5bG&B|mFlwst(daWSVY(+k*sLm)56J6+L=)D4{<B^FuJXQfuOp^MUiJOR<n8$N!
+zd)4!#FKfKIA!Nzh^SdKRwPV4=B9?T#FtLmkhOW!vP~LgVZ+G`aL0&TD4}B>rB!UVZ
+zY=~fc$*fzgOHxSi3ds<&S~`@nhATeGj8_i^L_?*v!(Lrpto4p`K1(sMiZu0pCRki)
+z8DESu(zC+LBJH^aE_ZBMqLVMVD@px9E0bt7xc(Lh40=^PIjSA2)!U#Wqa<5r7(e&g
+z?txbp&7cN}HC~Wj?NG;Sntjgm%JnLPnN@>IJKXmLG5dTGp;@CboptW+Il>=rB&Mzs
+z`CH=FVO6vUzxd`h#+XW6Es^GqleeWv>3G91@n75+#{M0LTl8gj2A^>lOuf9c_Rv$3
+zc1C;K)Ct&EI)u<mYouX>`VE-Pb3X=Xk75u*&E!we&`$fk?+Cp=Lihw)Zu%H)S+&e-
+zR!sYb$b94odMt9PB99S0$GA=?AZrKJ?14d5J1|CQ(?nF^&JiZn#xP>EcTfx0C`TcW
+z;0E0x${4~ZoixhpqI-lYM%Cxm<hMy4g<(!w<pCJpycW~G{J~d$JWyPe&=g*rq*2|f
+m+6Ydg0ZNqYV*yH-IH>H~copO`yhIjj#A`a}gb`bY`@aEHC_Fs?
+
+diff --git out/production/HomeWorks/HW2/task5/Main.class out/production/HomeWorks/HW2/task5/Main.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..01b7bdf2f53a5e9d6fc5fd1cff0dadbee9bfa86a
+GIT binary patch
+literal 772
+zc${rg%Wl&^6g?9=F>y@mG_({*f%0@xh@ptGD9r{55y=IlpdiGi6UR!XIAhBX1V6%m
+z&_yeO#0T&td<Ei894V@Z7x#7U<J{}{{rAT&0MD>%qKc-0ttzhLhKUkxDzUBHTPAMf
+zj)A)d?lDxJ3n{WLgXXjb4El>`6fmrMLI$t%=`cv%@nJ}jH81jcIN*s;{yeB>6Ol65
+z-mCY!ZpPD3Pu)W<<US!&(hM8UNAH+_=5EO4*zISDkmLQ?9G;A+vatkaD5X9@1(IhX
+zbo)M+GDrxj=4p`hWSnOVtjAFHqg;}0_M<%UgO@_lswxs4Rc^sVjiLTuD+Bi}IB2Pa
+zwuK!$u<#Ha1FnTfc+9YJekEFRLG;b=IPkM`q5ju23#LR}rLGs$MdZ$y(p~|d68TMM
+zDWL9Q$ly!XQ=8C#puMz6ZMbOkmQJ&1)L0Ux9<lO5BA`3H)&SeMK(9c3B`|dek`{R`
+zX-2x-J_GwcgD;Y-6hW+zwC46IY|>TKu{JOM1`Rst?oX6HoIpE+?(LkSe9*MbxUT(~
+zH0@Dro1s0L95u<0?NMl(g&iJsPf*!9g|V2rK~q3PYc$0sxkpnDh=XF$E+(OYOQdUf
+bf_2KLyQ724*rX17RC$FgjiOg)J+J)(b2p$o
+
